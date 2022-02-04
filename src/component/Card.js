@@ -20,8 +20,8 @@ const Card = (props) => {
             </div>
           </div>
           <div className="container d-flex justify-content-between">
-          <h5 className=" fs-6">{props.loc}</h5>
-          <h5 className=" fs-6">{props.date}</h5>
+          <h5 className=" fs-6">{`State : ${props.loc}`}</h5>
+          <h5 className=" fs-6">{`City : ${props.city}`}</h5>
           </div>
           <p className="card-text">
            {props.desc}
